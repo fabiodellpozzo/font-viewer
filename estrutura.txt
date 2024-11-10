@@ -1,0 +1,24 @@
+/font-viewer
+│
+├── index.html
+├── sample.html
+├── font.js
+├── sample.js
+├── index.js
+├── styles.css
+├── fonts
+│   ├── Roboto
+│   │   ├── regular.ttf
+│   │   └── bold.ttf
+│   └── OpenSans
+│       ├── regular.ttf
+│       └── bold.ttf
+├── FontCard.js
+├── FontService.js
+├── generateEmbedCode.js
+├── App.js
+├── uploadFunctions.js
+├── viewFont.js
+├── upload.php
+├── get_fonts.php
+└── fonts.json

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Font Styles</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="text-center my-4">Sample Font Styles</h1>
+    </header>
+    <div class="container">
+        <div id="fontInfo" class="content">
+            <h2 id="fontName"></h2>
+            <div class="form-group">
+                <label for="sampleText">Sample Text:</label>
+                <input type="text" id="sampleText" placeholder="Enter sample text">
+            </div>
+            <div id="variantsContainer"></div>
+            <button id="generateEmbedCode">Generate Embed Code</button>
+            <div id="embedCodeContainer">
+                <h4>Embed Code</h4>
+                <pre id="embedCodeContent"></pre>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="sample.js"></script>
+</body>
+</html>

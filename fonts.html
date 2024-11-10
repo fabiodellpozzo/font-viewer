@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Font Variants</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="text-center my-4">Font Variants Viewer</h1>
+    </header>
+    <div class="container">
+        <div id="fontInfo" class="content">
+            <h2 id="fontName"></h2>
+            <div id="variantsContainer"></div>
+            <button id="generateEmbedCode">Generate Embed Code</button>
+            <div id="embedCodeContainer">
+                <h4>Embed Code</h4>
+                <iframe id="embedCodeIframe" style="width: 100%; height: 300px; border: 1px solid #ccc;"></iframe>
+            </div>
+        </div>
+        <div id="stylePreviewContainer">
+            <h4>Style Preview</h4>
+            <p id="stylePreview" class="style-preview-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </div>
+    <script type="module" src="font.js"></script>
+</body>
+</html>
